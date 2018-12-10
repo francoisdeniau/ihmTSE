@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="activity_main_button_next">Next</string>
+    <string name="activity_form_button_save">Save</string>
+</resources>
