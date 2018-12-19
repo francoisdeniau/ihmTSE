@@ -40,9 +40,7 @@ public class FormActivity extends AppCompatActivity implements View.OnClickListe
 
     private void save(){
         String name = editTextName.getText().toString();
-        Intent resultIntent = new Intent();
-        resultIntent.putExtra(KEY_USERNAME,name);
-        setResult(RESULT_OK,resultIntent);
+        DataManager.getInstance().addName(name);
         finish();
     }
 }
